@@ -6,10 +6,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-
-  flex-direction: column;
 }
 
 #container ion-icon {
   margin-left: 5px;
+}
+
+.criarConta {
+  display: flex;
 }
