@@ -8,10 +8,28 @@
   transform: translateY(-50%);
 }
 
-#container ion-icon {
-  margin-left: 5px;
+.menu {
+  float: right;
 }
 
-.criarConta {
-  display: flex;
+.menu ion-icon {
+  font-size: 1.7em;
+}
+
+#telaLogin {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 2em;
+}
+
+#redefinirSenha {
+  width: 100%;
+}
+
+.opcaoLogin {
+  margin-top: 50px;
+}
+
+#container ion-icon {
+  margin-left: 5px;
 }

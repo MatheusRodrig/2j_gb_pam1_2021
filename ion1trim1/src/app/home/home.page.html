@@ -8,6 +8,12 @@
 
 <ion-content [fullscreen]="true">
 
+  <ion-button class="menu" color="dark" fill="clear">
+    <ion-icon name="ellipsis-vertical"></ion-icon>
+  </ion-button>
+
+  <h1 id="telaLogin">Login</h1>
+
   <div id="container">
     <ion-item>
       <ion-label position="floating">
@@ -23,26 +29,32 @@
       <ion-input type="password"></ion-input>
     </ion-item>
 
-    <ion-button color="tertiary" expand="block" fill="clear">
-      Continuar com 
-      <ion-icon name="logo-facebook"></ion-icon>
-    </ion-button>
-
-    <ion-button color="danger" expand="block" fill="clear">
-      Continuar com 
-      <ion-icon name="logo-google"></ion-icon>
+    <ion-button id="redefinirSenha" color="medium" fill="clear">
+      Esqueceu a senha?
     </ion-button>
 
     <ion-button color="primary" shape="round">
       Entrar
     </ion-button>
 
-    <p class="criarConta">
+    <div class="opcaoLogin">
+      <ion-button color="tertiary" expand="block" fill="clear">
+        Continuar com 
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-button>
+
+      <ion-button color="danger" expand="block" fill="clear">
+        Continuar com 
+        <ion-icon name="logo-google"></ion-icon>
+      </ion-button>
+    </div>
+
+    <div>
       Não tem uma conta? 
 
       <ion-button color="primary" fill="clear">
         Criar conta
       </ion-button>
-    </p>
+    </div>
   </div>
 </ion-content>
