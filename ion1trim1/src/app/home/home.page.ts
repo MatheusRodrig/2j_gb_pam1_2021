@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  login: string = 'Matheus@gmail.com'
+  senha: any = '123'
 
   constructor() {}
 
